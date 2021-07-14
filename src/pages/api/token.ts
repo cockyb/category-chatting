@@ -23,7 +23,6 @@ const allowCors = (fn: any) => async (req: NextApiRequest, res: NextApiResponse<
 };
 
 const handler = (req: NextApiRequest, res: NextApiResponse<Data>) => {
-  const d = new Date();
   res.status(200).json({token: 'sdf'});
 };
 
